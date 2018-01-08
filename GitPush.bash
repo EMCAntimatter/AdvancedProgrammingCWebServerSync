@@ -1,5 +1,3 @@
-!/bin/bash
 git add *
-read -p "Enter your commit message: " address
-git commit -m $address
-git push
+git commit -m "commit at bash$ zdump EST"
+git push server master
