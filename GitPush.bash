@@ -1,4 +1,4 @@
 git add *
-x=bash$ zdump EST
-git commit -m "commit at $x"
+DATE=`date '+%Y-%m-%d %H:%M:%S'`
+git commit -m "commit at $DATE"
 git push server master
