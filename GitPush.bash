@@ -1,3 +1,4 @@
 git add *
-git commit -m "commit at bash$ zdump EST"
+x = bash$ zdump EST
+git commit -m "commit at $x"
 git push server master
